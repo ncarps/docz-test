@@ -11,3 +11,22 @@ export const TextTest = () => {
         <text>Hello World!</text>
     )
 }
+
+export const TextInputTest = () => {
+    return(
+        <input 
+        type="text"
+        />
+    )
+}
+
+export const CheckBoxTest = () => {
+    return(
+        <label>
+        <input 
+        type="checkbox"
+        />
+        Test me!
+        </label>
+    )
+}
